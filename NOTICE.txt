@@ -5,3 +5,7 @@ Chistiakov Alexey
 
 
 Original names:
+FindLoopEMF.sci
+FindUnknownLoopCurrent.sci
+Main module.sci
+Matrix_Resistance.sce
