@@ -12,3 +12,4 @@ Matrix_Resistance.sce
 MethodOfLoopCurrent.sci
 OwnFrequencies.sci
 SolveSystem.sci
+ForcedComponents.sci
