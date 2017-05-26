@@ -35,6 +35,7 @@ function [] = PlotTransientResponse(Steady, A1, A2, p1, p2, Type)
         end;
     end;
         
+    subplot(2,2,1); 
     plot2d(x, Build);
     xtitle('График переходной харатеристики цепи ', 't', 'h1(t)');
     
