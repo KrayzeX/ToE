@@ -8,12 +8,14 @@ den = Hs.den;
 //Нахождение нулей и полюсов
 //zero = roots(numer(Hs));
 //pole = roots(denom(Hs));
+
 //Отображение нулей и полюсов
+subplot(3,1,2); 
 plzr(Hs);
 
 
 //Построение переходной характеристики
-subplot(2,1,2); 
+subplot(3,1,3); 
 plot(csim("step",0:0.1:25,Sys));
 
 result = Hs;
