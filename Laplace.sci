@@ -13,7 +13,7 @@ plzr(Hs);
 
 
 //Построение переходной характеристики
-subplot(2,2,2); 
+subplot(2,1,2); 
 plot(csim("step",0:0.1:25,Sys));
 
 result = Hs;
