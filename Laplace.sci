@@ -10,7 +10,10 @@ den = Hs.den;
 //pole = roots(denom(Hs));
 //Отображение нулей и полюсов
 plzr(Hs);
+
+
 //Построение переходной характеристики
+subplot(2,2,2); 
 plot(csim("step",0:0.1:25,Sys));
 
 result = Hs;
